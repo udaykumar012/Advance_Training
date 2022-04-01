@@ -83,19 +83,25 @@ h4,h5{
         font-size: large;
     }
     .flex-container1 {
-        visibility: hidden;
-      } #headingelements,#headingelements1{
-        width: 2%;
+        display: flex;
+        flex-direction: column;
     }
+    .flex-container1 :nth-child(1) { order: 2; }
+    .flex-container1 :nth-child(2) { order: 3; }
+    .flex-container1 :nth-child(3) { order: 1; }
       #logo{
             margin-left: 0%;
       }
-      #heading{
-          visibility: visible;
-      }
+     
       .newsfeed{
         display: flex;
         flex-direction: column;
+    }
+    #subscribe{
+        width: 80px;
+    }
+    #headingelements1 >input{
+        width: 90px;
     }
     #logo{
         text-align: left;
@@ -109,8 +115,5 @@ h4,h5{
     body{
         font-size: large;
     }
-    .flex-container1 {
-        visibility: hidden;
-      }
-   
+    
 }
