@@ -14,7 +14,9 @@ body{
     height: 40px;
 
 }
-
+#logo >img{
+    width: 80px;
+}
 
 #subscribe{
     background-color: rgb(60, 52, 172);
@@ -22,7 +24,7 @@ body{
     width: 30%;
     color: white;
 }
-#headingelements >input{
+#headingelements1 >input{
     height:20px ;
     width: 40%;
 }
@@ -55,13 +57,14 @@ body{
     display: flex;
     flex-direction: row;
 }
+
 .newsfeed >div{
     margin-right: 10px;
 }
 h4,h5{
     margin: 0;
 }
-#continueReading{
+#continueReading1,#continueReading2,#continueReading3,#continueReading4{
     background-color: rgb(148, 33, 33);
     color: white;
 }
@@ -81,7 +84,7 @@ h4,h5{
     }
     .flex-container1 {
         visibility: hidden;
-      } #headingelements{
+      } #headingelements,#headingelements1{
         width: 2%;
     }
       #logo{
