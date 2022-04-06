@@ -62,6 +62,10 @@ button{
     width: 130px;
     
 }
+hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 .main_content{
     margin-top: 90px;
