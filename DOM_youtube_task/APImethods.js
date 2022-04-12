@@ -2,8 +2,9 @@ const apikey="AIzaSyBp4aqwVyI9jZ8oVPUxW3KTCWpEL7nYkLE";
 
 async function callApi(searchval){
     
-    const url="https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval;
+    //const url="https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval;
     //console.log(url);
+    const url="https://udaykumar012.github.io/Advance_Training/DOM_youtube_task/staticJson.txt" //for static Json file
     await fetch(url) 
         .then(response=>response.json())
         .then(d=>{data=d})
