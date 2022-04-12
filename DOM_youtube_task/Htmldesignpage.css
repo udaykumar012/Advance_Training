@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color:red;
+    height: 60px;
+   
+}
+#logo{    
+    width: 100px;
+    height: 55px ;
+    padding: 3px;
+}
+main{
+    margin-right: 8%;
+    margin-left: 9%;
+    margin-top: 14px;
+}
+#searchformid{
+    text-align: center;
+    width: 55%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+#search{
+    width: 80%;
+    height: 30px;
+}
+#searchformid >button{
+    height: 35px;
+    width: 70px;
+}
+.images{
+    width: 23%;
+    height: 40%;
+    margin:10px;
+}
+
+footer{
+    visibility: hidden;
+}
+
