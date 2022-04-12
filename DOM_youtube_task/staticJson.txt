@@ -1,0 +1,522 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "eCjQdIaI90GYYB6dWhdQfeYy2jQ",
+  "nextPageToken": "CA8QAA",
+  "regionCode": "IN",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 15
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yY6l1PPHZciw5_RNoNeq9aKt2eI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UmnCZ7-9yDY"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-03T16:37:28Z",
+        "channelId": "UCBwmMxybNva6P_5VmxjzwqA",
+        "title": "Java Tutorial for Beginners | Learn Java in 2 Hours",
+        "description": "Link to Java Notes ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UmnCZ7-9yDY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UmnCZ7-9yDY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UmnCZ7-9yDY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apna College",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-03T16:37:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vyyjiz-u5_n0I2FwevEIzyoBBio",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8cm1x4bC610"
+      },
+      "snippet": {
+        "publishedAt": "2019-05-05T03:24:03Z",
+        "channelId": "UC59K-uG2A5ogwIrHw4bmlEg",
+        "title": "Java Tutorial for Beginners | Full Course",
+        "description": "Learn Java Programming in 7 hours. Intro - 00:00:00 How to use Eclipse - 00:03:50 2. Getting Started - 09:20 3. How Java Works ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8cm1x4bC610/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8cm1x4bC610/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8cm1x4bC610/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Telusko",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-05-05T03:24:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FNO4zpE8FHvB3MKkzA14q3cCaHo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eIrMbAQSU34"
+      },
+      "snippet": {
+        "publishedAt": "2019-07-15T16:00:12Z",
+        "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+        "title": "Java Tutorial for Beginners",
+        "description": "Java tutorial for beginners - Learn Java, the language behind millions of apps and websites. Want to master Java? Get my ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eIrMbAQSU34/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eIrMbAQSU34/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eIrMbAQSU34/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Programming with Mosh",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-07-15T16:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SgqoMvTw9WoU9NwBYcL5Ts727bg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hBh_CC5y8-s"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-23T10:21:01Z",
+        "channelId": "UCkw4JCwteGrDHIsyIIKo4tQ",
+        "title": "Java Full Course | Java Tutorial for Beginners | Java Online Training | Edureka",
+        "description": "Edureka Java Training (Use Code \"YOUTUBE20\"): https://www.edureka.co/java-j2ee-training-course This Edureka Java Full ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hBh_CC5y8-s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hBh_CC5y8-s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hBh_CC5y8-s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "edureka!",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-23T10:21:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oHdumVivDyren5qDEUXt3jvyl2Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VZg5r9i90z0"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-02T10:28:18Z",
+        "channelId": "UCV7cZwHMX_0vk8DSYrS7GCg",
+        "title": "Java Full Course for Beginners (Hindi) | Learn Coding",
+        "description": "इस एक video में मैने Java Programming को Basic से Advance तक बताया है, जिसमें हमने Java के सारे Chapters ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VZg5r9i90z0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VZg5r9i90z0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VZg5r9i90z0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Learn Coding",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-02T10:28:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Da5O3Ipbwvv4gPYnyW4vdGGvO1o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rV_3Lewxx6o"
+      },
+      "snippet": {
+        "publishedAt": "2019-08-09T15:15:00Z",
+        "channelId": "UCeVMnSShP_Iviwkknt83cww",
+        "title": "Java tutorial in hindi 🔥",
+        "description": "In this core java tutorial in Hindi, I have explained Core Java in one video in Hindi. This video will give you a good introduction to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rV_3Lewxx6o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rV_3Lewxx6o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rV_3Lewxx6o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CodeWithHarry",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-08-09T15:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qde9uT5eICu6zzfgMnCQOKRXSH8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XLnimroGCIg"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-21T05:54:14Z",
+        "channelId": "UCXZTnQ3pmX29VbQ1-XbhLsw",
+        "title": "Learn Java In Tamil | Beginner to Advance Complete guide | Tamil Hacks",
+        "description": "Hi guys welcome to Tamil Hacks 2.0 \u200d   Give this video a Thumbs Up Share & Subscribe for More Videos   Show your support ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XLnimroGCIg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XLnimroGCIg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XLnimroGCIg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tamil Hacks 2.0",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-21T05:54:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NDfTogN15ZMnspuQ-4FsAfmydYY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xk4_1vDrzzo"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-09T15:02:50Z",
+        "channelId": "UC4SVo0Ue36XCfOyb5Lh1viQ",
+        "title": "Java Full Course ☕【𝙁𝙧𝙚𝙚】",
+        "description": "Java tutorial for beginners full course #Java #tutorial #beginners ⭐️Time Stamps⭐️ #1 (00:00:00) Java tutorial for beginners ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xk4_1vDrzzo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xk4_1vDrzzo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xk4_1vDrzzo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Bro Code",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-09T15:02:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s6DCGfswXLH3G6J5RvJY1XmPh1M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yRpLlJmRo2w"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-16T17:20:40Z",
+        "channelId": "UCBwmMxybNva6P_5VmxjzwqA",
+        "title": "Introduction to Java Language | Lecture 1 | Complete Placement Course",
+        "description": "Notes of JAVA LECTURE 1 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yRpLlJmRo2w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yRpLlJmRo2w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yRpLlJmRo2w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apna College",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-16T17:20:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mrMk9YeFdyRzEgd8qX4pvOxC7zE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AzJEnN2pK_I"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-01T11:15:09Z",
+        "channelId": "UC3Qe9c8dZqnjwcDD2vCZBKQ",
+        "title": "Java 8 Hours Course in Telugu",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AzJEnN2pK_I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AzJEnN2pK_I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AzJEnN2pK_I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Python Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-01T11:15:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9nMUB2FHOicc37zgTeOcF9f0GG0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WYpQ1VkXag0"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-02T06:59:16Z",
+        "channelId": "UCV7cZwHMX_0vk8DSYrS7GCg",
+        "title": "Introduction to Java (Hindi) | What is Java? Explain with Syntax and Example",
+        "description": "How to Download & Install Java JDK? https://youtu.be/TNoggqhhvZo Please Subscribe our Channel....! Learn Coding ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WYpQ1VkXag0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WYpQ1VkXag0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WYpQ1VkXag0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Learn Coding",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-02T06:59:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "T0f5_uWJ68UOV8Qj309VXUZMvpI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "grEKMHGYyns"
+      },
+      "snippet": {
+        "publishedAt": "2018-08-08T14:32:40Z",
+        "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+        "title": "Learn Java 8 - Full Tutorial for Beginners",
+        "description": "Learn Java 8 and object oriented programming with this complete Java course for beginners. ⭐️Contents ⭐️ ⌨️ (0:00:00) 1 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/grEKMHGYyns/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/grEKMHGYyns/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/grEKMHGYyns/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "freeCodeCamp.org",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-08-08T14:32:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vzYH-saC-s2H0jqJacT3MMk4_HU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-HafzawNlUo"
+      },
+      "snippet": {
+        "publishedAt": "2018-12-05T17:25:07Z",
+        "channelId": "UC63URkuUvnugRBeTNqmToKg",
+        "title": "OOPS CONCEPTS - JAVA PROGRAMMING",
+        "description": "OOPS CONCEPTS 1) Object 2) Class 3) Abstraction 4) Encapsulation 5) Inheritance 6) Polymorphism #javaprogramming ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-HafzawNlUo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-HafzawNlUo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-HafzawNlUo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sundeep Saradhi Kanthety",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-12-05T17:25:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AiKzIcjciTRznN86KE-B5MkId2M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "walNht-t2DE"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-20T04:29:24Z",
+        "channelId": "UCeVMnSShP_Iviwkknt83cww",
+        "title": "Java in 7 Minutes 🔥",
+        "description": "Java is an object oriented programming language. In this short java video, we are going to cover history and development of java ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/walNht-t2DE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/walNht-t2DE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/walNht-t2DE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CodeWithHarry",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-20T04:29:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "k3qjNg6yuUwqRvAAG2OoxUmg0-A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RRubcjpTkks"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-18T15:57:44Z",
+        "channelId": "UC_fFL5jgoCOrwAVoM_fBYwA",
+        "title": "Learn Java in 14 Minutes (seriously)",
+        "description": "Full Java Course: https://course.alexlorenlee.com/courses/learn-java-fast If you're new to programming, I HIGHLY RECOMMEND ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RRubcjpTkks/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RRubcjpTkks/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RRubcjpTkks/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Alex Lee",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-18T15:57:44Z"
+      }
+    }
+  ]
+}
