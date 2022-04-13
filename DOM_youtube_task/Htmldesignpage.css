@@ -4,7 +4,7 @@
     overflow-x: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-header{
+header,footer{
     background-color:red;
     height: 60px;
    
@@ -15,9 +15,9 @@ header{
     padding: 3px;
 }
 main{
-    margin-right: 8%;
     margin-left: 9%;
     margin-top: 14px;
+    width: 90%;
 }
 #searchformid{
     text-align: center;
@@ -33,12 +33,19 @@ main{
     height: 35px;
     width: 70px;
 }
-.images{
-    width: 23%;
-    height: 40%;
-    margin:10px;
-}
 
+.video{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.video >div{
+    margin-right: 10px;
+}
+.videosnap{
+width: 300px;
+}
 footer{
     visibility: hidden;
 }
