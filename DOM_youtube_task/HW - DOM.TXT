@@ -20,6 +20,8 @@ Requirements:
 - full documentation - https://developers.google.com/youtube/v3/
 7. Design should be not ugly
 
+AIzaSyBT2lc7QjITuTunLdaExHw-QtHbIF69_IU
+
 
 
 
