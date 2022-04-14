@@ -1,18 +1,49 @@
 const apikey="AIzaSyAW-zQvjJViksupPobdcgFkwAn3uVBW1gM"
+async function fetchingFromAPI(nextToken,searchval){
+    //const url = "https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=10&q="+searchval+"&pageToken="+nextToken;
+    var url="https://udaykumar012.github.io/Advance_Training/DOM_youtube_task/staticJson.txt" //for static Json file
+    var nextToken = await youtubeGetData(url);
+    const nextBtn = document.createElement("input");
+    nextBtn.setAttribute('type', "submit");
+    nextBtn.setAttribute('value', "Next");
+    nextBtn.setAttribute('class',"submit-btn")
+    document.getElementById("videosId").append(nextBtn);
+    nextBtn.addEventListener("click", onNext);
+    Pagenation.appendChild(nextBtn);
+    function onNext(e) {
+        e.preventDefault();
+        var deleteDivvideo= document.getElementById("videosId");
+        while(deleteDivvideo.firstChild){
+            deleteDivvideo.removeChild(deleteDivvideo.firstChild);
+        }
+        while(Pagenation.firstChild){
+            Pagenation.removeChild(Pagenation.firstChild);
+        }
+        console.log("hii");
+        fetchingFromAPI(nextToken,searchval);
+    }
+}
 
-async function callApi(searchval){
+async function youtubeGetData(url){
     
-    //const url="https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=50&q="+searchval;
+    //const url="https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval;
     //console.log(url);
-    const url="https://udaykumar012.github.io/Advance_Training/DOM_youtube_task/staticJson.txt" //for static Json file
+    var nextpage;
     await fetch(url) 
         .then(response=>response.json())
-        .then(d=>{data=d})
+        .then(d=>{data=d })
         .catch(err=>console.log(err));
-        //console.log(data)
-    videocontainer=document.createElement('div');
-    videocontainer.setAttribute('class','videocontainer')
-    Main.appendChild(videocontainer);
+        displaydata(data)
+    nextpage=data.nextPageToken
+    return nextpage;
+}
+
+
+async function displaydata(data){
+    video=document.createElement('div');
+    video.setAttribute('class','video');
+    videocontainer.appendChild(video);
+    
     for(var i=0;i<data.items.length;i++){
         video=document.createElement('div');
         video.setAttribute('class','video');
@@ -21,7 +52,7 @@ async function callApi(searchval){
         video.appendChild(videoimgdiv);
         videoimg=document.createElement('img');
         imgurl=data.items[i].snippet.thumbnails.high.url;
-        //console.log(imgurl);
+        console.log(data);
         videoimg.setAttribute('src',imgurl);
         videoimg.setAttribute('class',"videosnap")
         videoimgdiv.appendChild(videoimg);
@@ -53,7 +84,7 @@ async function callApi(searchval){
         list_ul.appendChild(channeltitle_li);
         list_ul.appendChild(description_li);
     }
-    
+}
         
     /*var playlist=document.createElement('div');
         playlist.setAttribute('class','videolist');
@@ -63,4 +94,3 @@ async function callApi(searchval){
        
     
     
-}

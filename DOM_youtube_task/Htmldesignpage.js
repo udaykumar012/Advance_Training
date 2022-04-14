@@ -1,3 +1,4 @@
+
 /*var test="hello";
 console.log(test);*/
 //loading css dynamically
@@ -39,22 +40,42 @@ searchbutton.innerHTML="search";
 
 searchform.addEventListener("submit",SearchVideo);
 
-    function SearchVideo(e){
+   async function SearchVideo(e){
         //console.log("searching..") //test
         e.preventDefault()
         var searchval=document.searchformbox.searchbox.value.trim();
+        var deleteDiv = document.getElementById("videosId");
+        while(deleteDiv.firstChild){
+            deleteDiv.removeChild(deleteDiv.firstChild);
+        }
+        while(Pagenation.firstChild){
+            Pagenation.removeChild(Pagenation.firstChild);
+        }
         if(searchval==""){
             alert("please search....")
+            return false;
         }
         else{
-         const data=callApi(searchval);
+            console.log("hii");
+            fetchingFromAPI("",searchval);
         }
     }
-
+    
 
 searchform.appendChild(searchbox);
 searchform.appendChild(searchbutton);
 Main.appendChild(searchform);
+
+videocontainer=document.createElement('div');
+    videocontainer.setAttribute('class','videocontainer')
+    videocontainer.setAttribute('id','videosId')
+    Main.appendChild(videocontainer);
+    video=document.createElement('div');
+        video.setAttribute('class','video');
+        videocontainer.appendChild(video);
+Pagenation=document.createElement('div');
+Pagenation.setAttribute('class','prev-next');
+Main.appendChild(Pagenation)
 
 //footer
 const footer=document.createElement("footer");

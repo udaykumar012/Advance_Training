@@ -12,7 +12,7 @@ Requirements:
 2. HTML creates using JS. Almost no code inside index.html.
 3. No jquery or other frameworks. You can use only lodash.
 4. JS code should be splitted to different files depending on architecture.
-5. Minimal info about video is  (done)title with link on youtube, preview,  (done)description, (done)author, published date, count of views.
+5. Minimal info about video is  (done)title with link on youtube, preview,  (done)description, (done)author,(done) published date, count of views.
 6. Data from youtube could be received using:
 - https://www.googleapis.com/youtube/v3/search?key=AIzaSyBp4aqwVyI9jZ8oVPUxW3KTCWpEL7nYkLE&type=video&part=snippet&maxResults=15&q=js
 - https://www.googleapis.com/youtube/v3/videos?key=AIzaSyBp4aqwVyI9jZ8oVPUxW3KTCWpEL7nYkLE&id=nq4aU9gmZQk,REu2BcnlD34,qbPTdW7KgOg&part=snippet,statistics
