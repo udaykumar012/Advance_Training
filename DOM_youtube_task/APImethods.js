@@ -1,6 +1,6 @@
 const apikey="AIzaSyAW-zQvjJViksupPobdcgFkwAn3uVBW1gM"
 async function fetchingFromAPI(nextToken,searchval){
-    //const url = "https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=10&q="+searchval+"&pageToken="+nextToken;
+    //const url = "https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval+"&pageToken="+nextToken;
     var url="https://udaykumar012.github.io/Advance_Training/DOM_youtube_task/staticJson.txt" //for static Json file
     var nextToken = await youtubeGetData(url);
     const nextBtn = document.createElement("input");
@@ -27,7 +27,7 @@ async function fetchingFromAPI(nextToken,searchval){
 async function youtubeGetData(url){
     
     //const url="https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval;
-    //console.log(url);
+    console.log(url);
     var nextpage;
     await fetch(url) 
         .then(response=>response.json())

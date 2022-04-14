@@ -29,9 +29,12 @@ main{
     width: 80%;
     height: 30px;
 }
-#searchformid >button{
+#searchformid >button,.prev-next>input{
     height: 35px;
     width: 70px;
+    background-color: red;
+    color: white;
+    
 }
 
 .video{
