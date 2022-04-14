@@ -1,8 +1,37 @@
 const apikey="AIzaSyAW-zQvjJViksupPobdcgFkwAn3uVBW1gM"
+Token_arr=[];
 async function fetchingFromAPI(nextToken,searchval){
+    
+    Token_arr.unshift(nextToken);
     //const url = "https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval+"&pageToken="+nextToken;
     var url="https://udaykumar012.github.io/Advance_Training/DOM_youtube_task/staticJson.txt" //for static Json file
+    var prevToken;
+    const prevBtn = document.createElement("input");
+    prevBtn.setAttribute('type', "submit");
+    prevBtn.setAttribute('value', "Prev");
+    prevBtn.setAttribute('class',"submit-btn")
+    document.getElementById("videosId").append(prevBtn);
+    prevBtn.addEventListener("click", onPrev);
+    Pagenation.appendChild(prevBtn);
+    function onPrev(e) {
+        e.preventDefault();
+        var deleteDivvideo= document.getElementById("videosId");
+        while(deleteDivvideo.firstChild){
+            deleteDivvideo.removeChild(deleteDivvideo.firstChild);
+        }
+        while(Pagenation.firstChild){
+            Pagenation.removeChild(Pagenation.firstChild);
+        }
+        //console.log("hii");
+        if(Token_arr.length>1)
+            Token_arr.shift()
+        prevToken=Token_arr.shift()
+        fetchingFromAPI(prevToken,searchval);
+    }
+
     var nextToken = await youtubeGetData(url);
+    console.log(Token_arr ,prevToken,nextToken);
+    console.log(" and");
     const nextBtn = document.createElement("input");
     nextBtn.setAttribute('type', "submit");
     nextBtn.setAttribute('value', "Next");
@@ -19,7 +48,7 @@ async function fetchingFromAPI(nextToken,searchval){
         while(Pagenation.firstChild){
             Pagenation.removeChild(Pagenation.firstChild);
         }
-        console.log("hii");
+        //console.log("hii");
         fetchingFromAPI(nextToken,searchval);
     }
 }
@@ -27,7 +56,7 @@ async function fetchingFromAPI(nextToken,searchval){
 async function youtubeGetData(url){
     
     //const url="https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval;
-    console.log(url);
+    //console.log(url);
     var nextpage;
     await fetch(url) 
         .then(response=>response.json())
@@ -50,7 +79,7 @@ async function displaydata(data){
         video.appendChild(videoimgdiv);
         videoimg=document.createElement('img');
         imgurl=data.items[i].snippet.thumbnails.high.url;
-        console.log(data);
+        //console.log(data);
         videoimg.setAttribute('src',imgurl);
         videoimg.setAttribute('class',"videosnap")
         videoimgdiv.appendChild(videoimg);
