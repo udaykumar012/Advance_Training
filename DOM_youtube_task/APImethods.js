@@ -40,9 +40,7 @@ async function youtubeGetData(url){
 
 
 async function displaydata(data){
-    video=document.createElement('div');
-    video.setAttribute('class','video');
-    videocontainer.appendChild(video);
+   
     
     for(var i=0;i<data.items.length;i++){
         video=document.createElement('div');

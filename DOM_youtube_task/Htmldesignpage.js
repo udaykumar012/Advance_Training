@@ -70,9 +70,7 @@ videocontainer=document.createElement('div');
     videocontainer.setAttribute('class','videocontainer')
     videocontainer.setAttribute('id','videosId')
     Main.appendChild(videocontainer);
-    video=document.createElement('div');
-        video.setAttribute('class','video');
-        videocontainer.appendChild(video);
+    
 Pagenation=document.createElement('div');
 Pagenation.setAttribute('class','prev-next');
 Main.appendChild(Pagenation)
