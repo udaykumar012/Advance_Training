@@ -36,7 +36,7 @@ main{
     color: white;
     
 }
-.video{
+.video {
     width: 220px;
     height: 320px;
     display: flex;
@@ -66,7 +66,25 @@ width: 200px;
 .description{
     margin-bottom: 10px;
 }
+.prev-next{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
 footer{
     visibility: hidden;
 }
 
+@media screen and (max-width:576px){
+    .video{
+        width:100%;
+    }
+    .video>div{
+        width:300px;
+    }
+    .video>div>img{
+
+        width:100%;
+    }
+}

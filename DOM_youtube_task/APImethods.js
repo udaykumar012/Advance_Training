@@ -1,7 +1,7 @@
 const apikey="AIzaSyAW-zQvjJViksupPobdcgFkwAn3uVBW1gM"
+cou=0;
 Token_arr=[];
 async function fetchingFromAPI(nextToken,searchval){
-    
     Token_arr.unshift(nextToken);
     //const url = "https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval+"&pageToken="+nextToken;
     var url="https://udaykumar012.github.io/Advance_Training/DOM_youtube_task/staticJson.txt" //for static Json file
