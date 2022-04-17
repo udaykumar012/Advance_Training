@@ -5,6 +5,7 @@ async function fetchingFromAPI(nextToken,searchval){
     Token_arr.unshift(nextToken);
     //const url = "https://www.googleapis.com/youtube/v3/search?key="+apikey+"&type=video&part=snippet&maxResults=15&q="+searchval+"&pageToken="+nextToken;
     var url="https://udaykumar012.github.io/Advance_Training/DOM_youtube_task/staticJson.txt" //for static Json file
+    var nextToken = await youtubeGetData(url);
     var prevToken;
     const prevBtn = document.createElement("input");
     prevBtn.setAttribute('type', "submit");
@@ -29,9 +30,8 @@ async function fetchingFromAPI(nextToken,searchval){
         fetchingFromAPI(prevToken,searchval);
     }
 
-    var nextToken = await youtubeGetData(url);
-    console.log(Token_arr ,prevToken,nextToken);
-    console.log(" and");
+    //console.log(Token_arr ,prevToken,nextToken);
+    //console.log(" and");
     const nextBtn = document.createElement("input");
     nextBtn.setAttribute('type', "submit");
     nextBtn.setAttribute('value', "Next");
@@ -51,6 +51,8 @@ async function fetchingFromAPI(nextToken,searchval){
         //console.log("hii");
         fetchingFromAPI(nextToken,searchval);
     }
+ 
+    document.getElementById("youtubefooter").style.visibility = "visible";
 }
 
 async function youtubeGetData(url){

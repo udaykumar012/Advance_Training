@@ -70,12 +70,21 @@ width: 200px;
     display: flex;
     justify-content: space-around;
     width: 80%;
+    margin-bottom: 15px;
 }
 
 footer{
-    visibility: hidden;
+    visibility:hidden;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight:bolder;
+    
 }
-
+footer>div{
+    margin-top: 16px;
+    margin-right: 30px;
+}
 @media screen and (max-width:576px){
     .video{
         width:100%;

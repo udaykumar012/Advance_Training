@@ -77,5 +77,6 @@ Main.appendChild(Pagenation)
 
 //footer
 const footer=document.createElement("footer");
-footer.innerHTML="Youtube@2022";
+footer.setAttribute("id","youtubefooter")
+footer.innerHTML="<div>Youtube@2022</div>";
 document.body.appendChild(footer);
