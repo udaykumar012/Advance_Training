@@ -91,6 +91,7 @@ footer>div{
     }
     .video>div{
         width:300px;
+        overflow: hidden;
     }
     .video>div>img{
 
