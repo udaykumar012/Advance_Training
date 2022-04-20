@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header,footer{
+    background-color:red;
+    height: 60px;
+   overflow: hidden;
+}
+#logo{    
+    width: 100px;
+    height: 55px ;
+    padding: 3px;
+}
+main{
+    margin-left: 9%;
+    margin-top: 14px;
+    width: 90%;
+}
+#searchformid{
+    text-align: center;
+    width: 55%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+#search{
+    width: 80%;
+    height: 30px;
+}
+#searchformid >button,.prev-next>input{
+    height: 35px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    
+}
+.video {
+    width: 220px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    float: left;
+}
+
+.video >div{
+    margin-right: 10px;
+    width: 200px;
+}
+.videosnap{
+width: 200px;
+}
+.Title,.channelTitle{
+    font-size: small;
+}
+.publishTime,.description{
+    font-size: x-small;
+    color:grey; 
+}
+.channelTitle{
+    color: gray;
+}
+.description{
+    margin-bottom: 10px;
+}
+.prev-next{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+footer{
+    visibility:hidden;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+footer>div{
+    margin-top: 16px;
+    margin-right: 30px;
+}
+@media screen and (max-width:576px){
+    .video{
+        width:100%;
+    }
+    .video>div{
+        width:300px;
+        overflow: hidden;
+    }
+    .video>div>img{
+
+        width:100%;
+    }
+}
